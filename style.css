@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+body{
+    margin: 0; 
+}
+
+header{
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color:#f6f9fe;
+    border-radius:10px;
+}
+.container{
+    max-width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar{
+    display: none;
+    position: relative;
+    right: 1rem;
+    top: 0.2rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+}
+nav ul li a{
+    padding: 1rem;
+    color: #545454;
+    text-decoration: none;
+}
+
+
+.highlight, .submit {
+    background-color: #372865;
+    color: white;
+    border-radius: 5px;
+    transition: .4s ease-out;
+}    
+.highlight:hover, .submit:hover{
+    background-color: transparent;
+    color: #372865;
+    border: 1px solid #372865;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    margin-top: 1.5rem;
+    
+}
+.content{
+    
+    width: 100%;
+}
+.illustration{
+    height: 28rem;
+    width: 30rem;
+}
+.illustration img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.p1{
+    background-color: #372865;
+    color: #ccc1e6;
+    font-weight: 400;
+    border-radius: 30px;
+    padding: 7px 20px ;
+    width: max-content;
+}
+.p1 a{
+    color: #ccc1e6; 
+}
+h1{
+    color: #372865;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+.p2{
+    color: #545454;
+}
+
+input, button{
+    padding: 1rem;
+    font-size: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+input{
+    padding-right: 6rem;
+    border: 1px solid rgba(0,0,0,0.25);
+}
+
+
+
+.companies {
+    
+    color: #545454;
+    
+}
+.companies a{
+    width: 2.5rem;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+
+/* tablets (portrait)  */
+@media only screen and (max-width: 768px)  {
+
+header{
+    margin: 0 auto;
+    border-radius: 20px;
+   
+}
+
+.container{
+    margin: 0 auto;
+}
+.bar{
+    display: block;
+   color: #372865;
+   align-items: center;
+   justify-content: center;
+}
+
+nav ul li {
+    display: none;
+}
+
+
+
+.highlight{
+    background-color: transparent;
+    color: #545454;
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto; 
+}
+
+main{
+    text-align: center; 
+}
+.p1{
+    margin: 0 auto;
+    padding-right: 50px;
+}
+.illustration{
+    display: none;
+}
+
+button:hover{
+    animation: none ;
+}
+}
+/* phones */
+@media only screen and (min-width: 300px) and (max-width: 425px) {
+
+    header{
+        width: 100vw;
+        height: fit-content;
+       margin: 0 auto;
+        min-height: fit-content;
+    }
+
+  
+
+    .content{
+        width: 100%;
+        margin: 0 auto; 
+        
+        
+    }
+    .p1{
+        max-width: 100%;
+        padding: 0.5rem 1rem;
+       
+    }
+
+    button{
+        padding: 1rem 6.2rem;
+        margin-top: 1rem;
+        text-align: center;
+    
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .companies{
+        margin-top: 1rem;
+    }
+}
