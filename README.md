@@ -1,7 +1,7 @@
 
 # Commune Waitlist.
 > This is a community waiting list landing project from Codewell.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://codenameami91.github.io/Commune-Waitlist/). 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -11,11 +11,7 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This is  simple responsive landing page project to test my flebox and css skills. 
 
 
 ## Technologies Used
