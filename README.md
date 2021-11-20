@@ -1,31 +1,37 @@
 
-# Welcome to Codewell! 👋
+# Commune Waitlist.
+> This is a community waiting list landing project from Codewell.
+> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
-
-Free or paid, all templates are high quality and will make great portfolio pieces.
-
-### I've completed the challenge, now what?
-
-We recommend using one of these two websites to deploy your projects
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Project Status](#project-status)
+* [Acknowledgements](#acknowledgements)
 
 
-### Submit your solution to Codewell
+## General Information
+- Provide general information about your project here.
+- What problem does it (intend to) solve?
+- What is the purpose of your project?
+- Why did you undertake it?
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
 
-### Join our community on Slack
+## Technologies Used
+- HTML - version 5.0
+- CSS - version 3.0
 
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
 
-### Fonts Used
+## Project Status
+Project is: _complete_ 
 
-https://fonts.google.com/specimen/Nunito+Sans
+## Acknowledgements
+Give credit here.
+- This project was inspired by Codewell which you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.
+- You can find this project on [Codewell](https://www.codewell.cc/challenges/commune-waitlist-page--608d9565747bad001532bd64).
+
+
+
 
 
